@@ -1,1 +1,28 @@
+# 🛡️ Introducción a AMASS: Herramienta de Identificación de Activos
+
+**AMASS** (Asset Mapping and Scanning System) es una poderosa herramienta de código abierto diseñada para la **recolección, mapeo y análisis de activos en redes**. Utilizada ampliamente en el ámbito de la **ciberseguridad ofensiva y defensiva**, AMASS permite a los profesionales descubrir dominios, subdominios, direcciones IP y otras superficies de ataque expuestas de una organización.
+
+## 🚀 ¿Qué puede hacer AMASS?
+
+- **Reconocimiento pasivo y activo** de dominios y subdominios
+- **Enumeración de redes** mediante técnicas OSINT (Open Source Intelligence)
+- **Visualización de relaciones** entre activos mediante gráficos
+- **Integración con múltiples fuentes de datos** como Shodan, VirusTotal, y más
+- **Automatización de descubrimientos** para auditorías de seguridad continuas
+
+## 🔧 Casos de uso comunes
+
+- Evaluación de la **exposición digital** de una empresa
+- Apoyo en **pentesting** y simulaciones de ataque
+- Monitoreo de cambios en la infraestructura pública
+- Investigación de amenazas y análisis forense
+
+## 📦 ¿Por qué elegir AMASS?
+
+AMASS destaca por su **flexibilidad**, su **comunidad activa**, y su capacidad para integrarse en flujos de trabajo complejos. Es una herramienta esencial para cualquier analista de seguridad que busque **visibilidad completa** sobre los activos externos de una organización.
+
+---
+
+> 💡 *AMASS es mantenido por OWASP (Open Worldwide Application Security Project), lo que garantiza su calidad y enfoque en la seguridad.*
+
 
