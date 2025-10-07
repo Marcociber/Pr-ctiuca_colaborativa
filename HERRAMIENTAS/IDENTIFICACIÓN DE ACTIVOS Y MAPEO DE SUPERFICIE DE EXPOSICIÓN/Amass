@@ -1,31 +1,28 @@
-# 🛡️ Introducción a AMASS: Herramienta de Identificación de Activos
+# 🛡️ Introducción a AMASS
 
-**AMASS** (Asset Mapping and Scanning System) es una herramienta de código abierto desarrollada por OWASP para la **identificación, mapeo y análisis de activos digitales**. Es ampliamente utilizada en el ámbito de la **ciberseguridad ofensiva y defensiva**, ya que permite descubrir dominios, subdominios, direcciones IP y otras superficies de ataque expuestas de una organización.
+**AMASS** (Asset Mapping and Scanning System) es una herramienta de código abierto desarrollada por OWASP para la identificación, mapeo y análisis de activos digitales.
 
-## 🚀 Funcionalidades principales
+## 🚀 Funcionalidades
 
-- Reconocimiento **pasivo y activo** de dominios y subdominios
-- Enumeración de redes mediante técnicas **OSINT**
-- Visualización de relaciones entre activos mediante **gráficos interactivos**
-- Integración con fuentes externas como **Shodan, VirusTotal, Censys**, entre otras
-- Automatización de descubrimientos para auditorías de seguridad continuas
+- Reconocimiento pasivo y activo
+- Enumeración con OSINT
+- Visualización de relaciones
+- Integración con fuentes externas
+- Automatización de auditorías
 
 ## 🔧 Casos de uso
 
-- Evaluación de la **exposición digital** de una organización
-- Apoyo en procesos de **pentesting** y simulaciones de ataque
-- Monitoreo de cambios en la infraestructura pública
-- Investigación de amenazas y análisis forense
+- Evaluación de exposición digital
+- Pentesting
+- Monitoreo de infraestructura
+- Investigación forense
 
-## 📦 Ventajas de usar AMASS
+## 📦 Ventajas
 
-AMASS destaca por su:
-
-- **Flexibilidad** para adaptarse a distintos entornos
-- **Comunidad activa** que contribuye a su mejora continua
-- Capacidad de integrarse en flujos de trabajo complejos
-- Enfoque en la **seguridad y transparencia**, al ser mantenida por OWASP
+- Flexibilidad
+- Comunidad activa
+- Integración en flujos complejos
 
 ---
 
-> 💡 *AMASS es mantenida por OWASP (Open Worldwide Application Security Project), lo que garantiza su calidad y enfoque en la seguridad.*
+> 💡 *AMASS es mantenida por OWASP, lo que garantiza su calidad y enfoque en la seguridad.*
