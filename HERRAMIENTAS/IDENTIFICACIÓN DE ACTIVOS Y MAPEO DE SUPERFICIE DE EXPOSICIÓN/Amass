@@ -1,28 +1,31 @@
 # 🛡️ Introducción a AMASS: Herramienta de Identificación de Activos
 
-**AMASS** (Asset Mapping and Scanning System) es una poderosa herramienta de código abierto diseñada para la **recolección, mapeo y análisis de activos en redes**. Utilizada ampliamente en el ámbito de la **ciberseguridad ofensiva y defensiva**, AMASS permite a los profesionales descubrir dominios, subdominios, direcciones IP y otras superficies de ataque expuestas de una organización.
+**AMASS** (Asset Mapping and Scanning System) es una herramienta de código abierto desarrollada por OWASP para la **identificación, mapeo y análisis de activos digitales**. Es ampliamente utilizada en el ámbito de la **ciberseguridad ofensiva y defensiva**, ya que permite descubrir dominios, subdominios, direcciones IP y otras superficies de ataque expuestas de una organización.
 
-## 🚀 ¿Qué puede hacer AMASS?
+## 🚀 Funcionalidades principales
 
-- **Reconocimiento pasivo y activo** de dominios y subdominios
-- **Enumeración de redes** mediante técnicas OSINT (Open Source Intelligence)
-- **Visualización de relaciones** entre activos mediante gráficos
-- **Integración con múltiples fuentes de datos** como Shodan, VirusTotal, y más
-- **Automatización de descubrimientos** para auditorías de seguridad continuas
+- Reconocimiento **pasivo y activo** de dominios y subdominios
+- Enumeración de redes mediante técnicas **OSINT**
+- Visualización de relaciones entre activos mediante **gráficos interactivos**
+- Integración con fuentes externas como **Shodan, VirusTotal, Censys**, entre otras
+- Automatización de descubrimientos para auditorías de seguridad continuas
 
-## 🔧 Casos de uso comunes
+## 🔧 Casos de uso
 
-- Evaluación de la **exposición digital** de una empresa
-- Apoyo en **pentesting** y simulaciones de ataque
+- Evaluación de la **exposición digital** de una organización
+- Apoyo en procesos de **pentesting** y simulaciones de ataque
 - Monitoreo de cambios en la infraestructura pública
 - Investigación de amenazas y análisis forense
 
-## 📦 ¿Por qué elegir AMASS?
+## 📦 Ventajas de usar AMASS
 
-AMASS destaca por su **flexibilidad**, su **comunidad activa**, y su capacidad para integrarse en flujos de trabajo complejos. Es una herramienta esencial para cualquier analista de seguridad que busque **visibilidad completa** sobre los activos externos de una organización.
+AMASS destaca por su:
+
+- **Flexibilidad** para adaptarse a distintos entornos
+- **Comunidad activa** que contribuye a su mejora continua
+- Capacidad de integrarse en flujos de trabajo complejos
+- Enfoque en la **seguridad y transparencia**, al ser mantenida por OWASP
 
 ---
 
-> 💡 *AMASS es mantenido por OWASP (Open Worldwide Application Security Project), lo que garantiza su calidad y enfoque en la seguridad.*
-
-
+> 💡 *AMASS es mantenida por OWASP (Open Worldwide Application Security Project), lo que garantiza su calidad y enfoque en la seguridad.*
