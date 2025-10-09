@@ -45,3 +45,5 @@ git clone https://github.com/owasp-amass/amass.git
 
 Una vez instalado, veremos que contiene la carpeta /amass donde dentro incluye:
 
+![Contenido del directorio](../../../../Assets/image.png)
+
