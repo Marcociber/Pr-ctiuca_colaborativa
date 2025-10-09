@@ -55,3 +55,5 @@ amass -h
 ```
 
 Donde veremos que incluye toda la información relacionada con la herramienta:
+
+![Contenido del directorio](../../Assets/help.png)
