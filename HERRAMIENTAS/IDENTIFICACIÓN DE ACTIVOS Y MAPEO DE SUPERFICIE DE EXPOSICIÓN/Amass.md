@@ -47,3 +47,11 @@ Una vez instalado, veremos que contiene la carpeta /amass donde dentro incluye:
 
 ![Contenido del directorio](../../Assets/image.png)
 
+Para ver la ayuda de la herramienta, tendremos que usar el comando:
+
+```bash
+amass -h
+
+```
+
+Donde veremos que incluye toda la información relacionada con la herramienta:
