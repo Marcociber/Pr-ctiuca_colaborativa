@@ -57,3 +57,13 @@ amass -h
 Donde veremos que incluye toda la información relacionada con la herramienta:
 
 ![Contenido del directorio](../../Assets/help.png)
+
+El siguiente comando muestra la ayuda del subcomando enum, que se usa para enumerar subdominios de un dominio objetivo:
+
+```bash
+amass enum -h
+
+```
+
+Cuyo resultado es este:
+
