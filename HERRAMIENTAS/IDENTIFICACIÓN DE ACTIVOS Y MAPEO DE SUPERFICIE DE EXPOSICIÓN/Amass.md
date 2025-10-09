@@ -67,7 +67,7 @@ amass enum -h
 
 Cuyo resultado es este:
 
-![Contenido del directorio](../../Assets/enum.png)
+![Enumeración](../../Assets/enum.png)
 
 ## 🔍 Enumeración de subdominios con Amass
 
@@ -77,3 +77,5 @@ El siguiente comando utiliza OWASP Amass para buscar subdominios del dominio `go
 amass enum -v -d google.com
 
 ```
+
+![Google](../../Assets/google.png)
