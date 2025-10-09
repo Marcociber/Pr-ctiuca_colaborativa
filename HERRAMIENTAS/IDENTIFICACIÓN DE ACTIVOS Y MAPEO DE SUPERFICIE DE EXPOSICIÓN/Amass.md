@@ -67,3 +67,4 @@ amass enum -h
 
 Cuyo resultado es este:
 
+![Contenido del directorio](../../Assets/enum.png)
