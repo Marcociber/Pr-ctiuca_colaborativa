@@ -81,14 +81,3 @@ amass enum -v -d google.com
 ![Google](../../Assets/google.png)
 
 
-# 🌐 Análisis avanzado del dominio `google.com` con OWASP Amass
-
-Esta guía presenta comandos útiles y avanzados para investigar el dominio `google.com` usando [OWASP Amass](https://github.com/owasp-amass/amass), una herramienta especializada en descubrimiento de activos y mapeo de superficie de exposición.
-
----
-
-## 🔍 1. Recopilar inteligencia de fuentes abiertas
-
-```bash
-amass intel -d google.com -whois -active
-
