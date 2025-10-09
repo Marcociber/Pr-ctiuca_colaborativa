@@ -26,3 +26,9 @@
 ---
 
 💡 *AMASS es mantenida por OWASP (Open Worldwide Application Security Project), lo que garantiza su calidad y enfoque en la seguridad.*
+
+
+
+## Instalación y configuración:
+
+Para empezar, tendremos que bajarnos el repositorio de amass en github, cuya dirección es [esta](https://github.com/owasp-amass/amass)
