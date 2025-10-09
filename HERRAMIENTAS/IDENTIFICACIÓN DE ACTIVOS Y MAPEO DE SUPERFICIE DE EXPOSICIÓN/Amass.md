@@ -31,4 +31,17 @@
 
 ## Instalación y configuración:
 
-Para empezar, tendremos que bajarnos el repositorio de amass en github, cuya dirección es [esta](https://github.com/owasp-amass/amass)
+Para empezar, tendremos que bajarnos el repositorio de amass en github, cuya dirección es [esta](https://github.com/owasp-amass/amass).
+
+En una máquina virtual, preferiblemente kali linux, tendremos que clonar el repositorio en local, con el siguiente comando:
+
+
+## 📦 Comando para clonar
+
+```bash
+git clone https://github.com/owasp-amass/amass.git
+
+```
+
+Una vez instalado, veremos que contiene la carpeta /amass donde dentro incluye:
+
