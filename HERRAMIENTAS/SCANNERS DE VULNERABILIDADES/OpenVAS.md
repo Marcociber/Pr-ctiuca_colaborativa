@@ -128,6 +128,8 @@ Este panel es útil para:
 
 Para ello, tenemos que ir al directorio Scans/Tasks, donde le damos a Task Wizard y ponemos una dirección a escanear.
 
+![imagen](../../Assets/scan.png)
+
 Permite realizar un escaneo rápido sobre una IP o hostname específico, sin necesidad de configurar manualmente todos los parámetros.
 
 ### 🧩 Elementos clave del asistente
