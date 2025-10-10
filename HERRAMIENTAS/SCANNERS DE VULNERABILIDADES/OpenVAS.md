@@ -58,4 +58,16 @@ sudo gvm-check-setup
 
 Si todo ha ido bien: veremos que nos muestra el mensaje de verificación:
 
-![imagen](../../Assets/userpass.png)
+![imagen](../../Assets/success.png)
+
+
+Para iniciar o parar el servicio, son esos los siguientes comandos:
+
+```bash
+sudo gvm-start
+sudo gmv-stop
+
+```
+
+Una vez ha arrancado el servidor, nos abrirá un entorno web sobre el puerto 9392, donde nos pedirá el usuario y contraseña que previamente nos ha dado en la instación y configuración:
+
