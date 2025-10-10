@@ -71,3 +71,7 @@ sudo gmv-stop
 
 Una vez ha arrancado el servidor, nos abrirá un entorno web sobre el puerto 9392, donde nos pedirá el usuario y contraseña que previamente nos ha dado en la instación y configuración:
 
+![imagen](../../Assets/login.png)
+
+Si el acceso ha sido exitoso, tendremos que ver lo siguiente:
+
