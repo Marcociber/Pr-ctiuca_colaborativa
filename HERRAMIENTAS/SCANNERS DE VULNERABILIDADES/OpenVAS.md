@@ -120,5 +120,45 @@ Este panel es útil para:
 - Priorizar escaneos según contexto y severidad.
 - Integrar datos con plataformas como Faraday para gestión centralizada.
 
+![imagen](../../Assets/certbunds.png)
+
 ---
 
+## 🎯 Objetivo del asistente
+
+Para ello, tenemos que ir al directorio Scans/Tasks, donde le damos a Task Wizard y ponemos una dirección a escanear.
+
+Permite realizar un escaneo rápido sobre una IP o hostname específico, sin necesidad de configurar manualmente todos los parámetros.
+
+### 🧩 Elementos clave del asistente
+
+- **Campo de entrada:**  
+  `IP address or hostname` → En el ejemplo se usa `10.224.60.246`.
+
+- **Instrucciones del flujo de escaneo:**
+  1. Crear un nuevo **Target** (objetivo).
+  2. Crear una nueva **Task** (tarea) usando ese Target.
+  3. Iniciar la Task.
+
+- **Información adicional:**
+  - Se puede escanear rangos de IP.
+  - Se utilizan configuraciones por defecto si no se personaliza.
+
+- **Opciones disponibles:**
+  - ✅ Checkbox para crear la tarea manualmente si se desea más control.
+  - 🔘 Botones: `Cancel` y `Start Scan`.
+
+## 🛠️ Aplicación práctica
+
+Este asistente es útil para:
+- Ejecutar escaneos rápidos en entornos de laboratorio o producción.
+- Validar dispositivos recién conectados a la red.
+- Automatizar tareas básicas sin configurar manualmente cada parámetro.
+
+## 📌 Recomendaciones
+
+- Para escaneos más avanzados, usa el panel completo de `Tasks` y configura:
+  - Escaneo intensivo (`Full and fast`)
+  - Credenciales
+  - Políticas personalizadas
+- Integra los resultados con Faraday para gestión centralizada.
