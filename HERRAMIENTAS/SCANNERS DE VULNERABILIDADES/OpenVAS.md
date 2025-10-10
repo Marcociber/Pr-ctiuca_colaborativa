@@ -80,5 +80,7 @@ Si el acceso ha sido exitoso, tendremos que ver lo siguiente:
 
 # Uso práctico
 
-En el panel, si nos dirigimos hacia la dirección Administration/Feed Status, podemos ver que el estado actual del servicio está activo y el resto está en acutalización (Toma su tiempo)
+En el panel, si nos dirigimos hacia la dirección Administration/Feed Status, podemos ver que el estado actual del servicio está activo y el resto está en acutalización (Toma su tiempo):
+
+![imagen](../../Assets/status.png)
 
