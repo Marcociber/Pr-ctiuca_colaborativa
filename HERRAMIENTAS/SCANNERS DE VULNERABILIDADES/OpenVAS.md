@@ -164,3 +164,128 @@ Este asistente es útil para:
   - Credenciales
   - Políticas personalizadas
 - Integra los resultados con Faraday para gestión centralizada.
+
+---
+
+# 🛡️ Funcionalidades de Greenbone OpenVAS (GVM)
+
+Greenbone Vulnerability Management (GVM), también conocido como OpenVAS, es una plataforma completa para la gestión de vulnerabilidades. A continuación se resumen sus principales módulos y opciones disponibles en la interfaz de Greenbone Security Assistant (GSA).
+
+---
+
+## 📊 Dashboard
+
+- Vista general del estado del sistema.
+- Estadísticas de escaneos, vulnerabilidades, CVEs y severidad.
+- Gráficos por tiempo, CVSS, y clasificaciones CERT-Bund.
+
+---
+
+## 🎯 Targets
+
+- Definición de objetivos de escaneo (IP, rangos, hostnames).
+- Configuración de credenciales (SSH, SMB, SNMP).
+- Personalización de puertos y protocolos.
+
+---
+
+## 📋 Tasks
+
+- Creación de tareas de escaneo.
+- Selección de políticas (`Full and fast`, `Host Discovery`, etc.).
+- Programación de escaneos recurrentes.
+- Asociación con Targets y Escaners.
+
+---
+
+## 🔍 Results
+
+- Visualización de resultados por tarea.
+- Detalles de vulnerabilidades detectadas.
+- Filtros por severidad, CVSS, estado y fecha.
+- Exportación en formatos como PDF, XML, HTML.
+
+---
+
+## 🧩 CVEs
+
+- Navegación por vulnerabilidades conocidas.
+- Búsqueda por ID, producto, severidad o fecha.
+- Asociación con resultados de escaneo.
+
+---
+
+## 🧠 SecInfo (Security Information)
+
+- Acceso a feeds de vulnerabilidades:
+  - NVT (Network Vulnerability Tests)
+  - CERT-Bund
+  - SCAP
+  - CPEs
+- Visualización de metadatos y referencias externas.
+
+---
+
+## 🔐 Credentials
+
+- Gestión de credenciales para escaneos autenticados.
+- Soporte para SSH, SMB, SNMP, ESXi, y más.
+- Asociación con Targets específicos.
+
+---
+
+## ⚙️ Configuration
+
+- Gestión de políticas de escaneo.
+- Configuración de Escaners (OpenVAS, OSP).
+- Personalización de alertas y notificaciones.
+
+---
+
+## 📦 Feeds
+
+- Sincronización de bases de datos de vulnerabilidades.
+- Actualización de NVTs, CERT, SCAP, CPEs.
+- Estado de sincronización y logs.
+
+---
+
+## 🔄 Schedulers
+
+- Programación de tareas automáticas.
+- Escaneos periódicos por hora, día o semana.
+- Asociación con tareas existentes.
+
+---
+
+## 📁 Reports
+
+- Acceso a informes históricos.
+- Exportación y visualización detallada.
+- Integración con plataformas externas (Faraday, SIEM).
+
+---
+
+## 🧪 Escaners
+
+- Configuración de motores de escaneo (OpenVAS, OSP).
+- Asociación con tareas y políticas.
+- Estado y rendimiento del escáner.
+
+---
+
+## 🧰 Tools
+
+- Utilidades adicionales como:
+  - Certificados
+  - Logs del sistema
+  - Estado de servicios
+
+---
+
+## 🔗 Integraciones
+
+- API XML y REST para automatización.
+- Integración con Faraday, SIEMs, y plataformas DevSecOps.
+- Soporte para notificaciones por correo y webhooks.
+
