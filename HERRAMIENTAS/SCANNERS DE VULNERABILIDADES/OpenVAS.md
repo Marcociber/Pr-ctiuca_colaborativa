@@ -45,6 +45,17 @@ sudo gvm-setup
 
 ```
 
-Una vez haya termindado, debemos copiar el usuario y contraseña generadas, vieéndose algo así:
+Una vez haya termindado, debemos copiar el usuario y contraseña generadas,ya que lo vamos a necesitar durante el proyecto, vieéndose algo así:
 
-![Logo del proyecto](assets/logo.png)
+![imagen](../../Assets/userpass.png)
+
+Posteriormente, ponemos el siguiente comando que sirve como verificador de estado para la instalación y configuración de Greenbone Vulnerability Management (GVM):
+
+```bash
+sudo gvm-check-setup
+
+```
+
+Si todo ha ido bien: veremos que nos muestra el mensaje de verificación:
+
+![imagen](../../Assets/userpass.png)
