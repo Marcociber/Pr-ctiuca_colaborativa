@@ -27,3 +27,24 @@
 ---
 
 > 💡 *OpenVAS es mantenido por Greenbone y se integra dentro del ecosistema GVM, lo que garantiza su enfoque profesional y su alineación con estándares internacionales de seguridad.*
+
+
+## Instalación y configuración
+
+Para empezar tenemos que actualizar los paquetes con:
+
+```bash
+sudo apt update && sudo apt upgrade
+
+```
+
+Una vez instalado, debemos montar el setup del programa para que nos genere el servicio con:
+
+```bash
+sudo gvm-setup
+
+```
+
+Una vez haya termindado, debemos copiar el usuario y contraseña generadas, vieéndose algo así:
+
+![Logo del proyecto](assets/logo.png)
