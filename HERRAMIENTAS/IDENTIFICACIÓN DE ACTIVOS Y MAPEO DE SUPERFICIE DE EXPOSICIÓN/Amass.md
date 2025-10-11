@@ -132,6 +132,9 @@ amass intel -active -asn 394161
 - **Descripción**: Realiza consultas activas sobre el ASN (Autonomous System Number) `394161`.
 - **Uso**: Identifica dominios e IPs asociados a ese sistema autónomo, útil para rastrear infraestructura de red.
 
+![cidr](../../Assets/asn.png)
+
+
 ---
 
 ```bash
