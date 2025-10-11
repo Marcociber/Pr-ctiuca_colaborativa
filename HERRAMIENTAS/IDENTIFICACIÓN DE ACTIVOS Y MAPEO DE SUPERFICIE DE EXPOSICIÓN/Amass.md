@@ -164,6 +164,8 @@ amass enum -d tesla.com -active -cidr 8.21.14.0/24 -asn 394161
 - **Descripción**: Enumeración activa de subdominios de `tesla.com`, incluyendo verificación en el rango IP y ASN especificados.
 - **Uso**: Ideal para ampliar el alcance de descubrimiento y verificar subdominios en tiempo real.
 
+![cidr](../../Assets/asntesla.png)
+
 ---
 
 ## 🔄 3. Seguimiento de cambios
