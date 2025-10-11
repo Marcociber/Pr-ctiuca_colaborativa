@@ -154,6 +154,8 @@ amass enum -d example.com
 - **Descripción**: Realiza una enumeración pasiva de subdominios del dominio `example.com`.
 - **Uso**: Útil para obtener una lista básica de subdominios sin realizar verificaciones activas.
 
+![whois](../../Assets/example.png)
+
 ---
 
 ```bash
