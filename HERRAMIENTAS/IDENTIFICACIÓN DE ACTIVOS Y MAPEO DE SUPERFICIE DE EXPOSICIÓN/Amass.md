@@ -96,6 +96,8 @@ amass intel -d owasp.org -whois
 - **Descripción**: Busca dominios relacionados con `owasp.org` usando fuentes pasivas y registros WHOIS.
 - **Uso**: Útil para descubrir dominios adicionales que podrían estar bajo el mismo control administrativo.
 
+![whois](../../Assets/whois.png)
+
 ---
 
 ```bash
