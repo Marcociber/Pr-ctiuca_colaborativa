@@ -108,7 +108,7 @@ amass intel -active -cidr 173.0.84.0/24
 - **Descripción**: Realiza consultas activas sobre el rango de IPs `173.0.84.0/24`.
 - **Uso**: Permite identificar dominios o subdominios alojados en ese rango IP.
 
-![whois](../../Assets/cidr.png)
+![cidr](../../Assets/cidr.png)
 
 ---
 
@@ -119,6 +119,8 @@ amass intel -org "Tesla"
 
 - **Descripción**: Busca dominios relacionados con la organización registrada como "Tesla".
 - **Uso**: Ideal para mapear la superficie de exposición de una empresa específica.
+
+![cidr](../../Assets/tesla.png)
 
 ---
 
