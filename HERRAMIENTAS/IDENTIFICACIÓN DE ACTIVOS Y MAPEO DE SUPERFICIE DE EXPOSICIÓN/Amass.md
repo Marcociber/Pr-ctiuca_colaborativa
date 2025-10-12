@@ -182,7 +182,20 @@ amass enum -d example.com -r 8.8.8.8 -tr 1.1.1.1
 
 - **Descripción**: Realiza enumeración de subdominios de example.com utilizando resolvers DNS personalizados (Google y Cloudflare).
 - **Uso**: Mejora la resolución DNS y evita bloqueos por parte de resolvers predeterminados.
+
 ![cidr](../../Assets/tr.png)
+
+---
+
+```bash
+amass enum -d example.com -brute -norecursive
+
+```
+
+- **Descripción**: Fuerza bruta de subdominios sin recursividad, útil para obtener nombres directos sin expandir jerarquías.
+- **Uso**: Ideal para entornos donde se desea limitar la profundidad de descubrimiento o acelerar el proceso.
+
+![cidr](../../Assets/nore.png)
 
 ---
 
