@@ -108,6 +108,7 @@ amass intel -active -cidr 173.0.84.0/24
 - **Descripción**: Realiza consultas activas sobre el rango de IPs `173.0.84.0/24`.
 - **Uso**: Permite identificar dominios o subdominios alojados en ese rango IP.
 
+![whois](../../Assets/cidr2.png)
 
 ---
 
