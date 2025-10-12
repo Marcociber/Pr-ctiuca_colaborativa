@@ -147,6 +147,19 @@ amass intel -asn 394161 -whois -d tesla.com
 
 ---
 
+```bash
+amass intel -d example.com -asn 13335
+
+
+```
+
+- **Descripción**:Busca dominios relacionados con example.com y el ASN 13335 (Cloudflare).
+- **Uso**: Útil para identificar activos vinculados a la infraestructura de red de Cloudflare que podrían estar relacionados con el dominio objetivo.
+
+![cidr](../../Assets/asntesla.png)
+
+---
+
 ## 🌐 2. Enumeración de subdominios
 
 ```bash
@@ -173,49 +186,29 @@ amass enum -d tesla.com -active -cidr 8.21.14.0/24 -asn 394161
 
 ---
 
-## 🔄 3. Seguimiento de cambios
-
 ```bash
-amass track -help
+amass intel -d example.com -asn 13335
+
 
 ```
 
-- **Descripción**: Muestra la ayuda del subcomando `track`, incluyendo todas sus opciones disponibles.
-- **Uso**: Útil para entender cómo configurar el seguimiento de activos.
+- **Descripción**:Busca dominios relacionados con example.com y el ASN 13335 (Cloudflare).
+- **Uso**: Útil para identificar activos vinculados a la infraestructura de red de Cloudflare que podrían estar relacionados con el dominio objetivo.
+
+![cidr](../../Assets/asntesla.png)
 
 ---
 
 ```bash
-amass track -d tesla.com
+amass intel -d example.com -asn 13335
+
 
 ```
 
-- **Descripción**: Compara resultados actuales con anteriores para el dominio `tesla.com`.
-- **Uso**: Detecta nuevos subdominios o cambios en la infraestructura.
+- **Descripción**:Busca dominios relacionados con example.com y el ASN 13335 (Cloudflare).
+- **Uso**: Útil para identificar activos vinculados a la infraestructura de red de Cloudflare que podrían estar relacionados con el dominio objetivo.
 
----
-
-## 🧬 4. Consulta de base de datos
-
-```bash
-amass db -show -d tesla.com
-
-```
-
-- **Descripción**: Muestra los datos almacenados en la base de datos interna de Amass para `tesla.com`.
-- **Uso**: Permite revisar hallazgos históricos y realizar auditorías.
-
----
-
-## 📡 5. Resolución DNS directa
-
-```bash
-amass dns -d tesla.com
-
-```
-
-- **Descripción**: Realiza resolución DNS sobre el dominio `tesla.com`.
-- **Uso**: Verifica subdominios y registros DNS directamente, sin realizar enumeración completa.
+![cidr](../../Assets/asntesla.png)
 
 ---
 
