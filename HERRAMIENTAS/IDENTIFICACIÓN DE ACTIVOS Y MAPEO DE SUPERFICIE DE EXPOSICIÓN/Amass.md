@@ -120,7 +120,7 @@ amass intel -org "Tesla"
 - **Descripción**: Busca dominios relacionados con la organización registrada como "Tesla".
 - **Uso**: Ideal para mapear la superficie de exposición de una empresa específica.
 
-![cidr](../../Assets/tesla.png)
+![cidr](../../Assets/tesla2.png)
 
 ---
 
