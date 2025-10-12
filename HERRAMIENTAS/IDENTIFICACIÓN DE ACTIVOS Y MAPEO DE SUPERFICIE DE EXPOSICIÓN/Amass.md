@@ -138,25 +138,14 @@ amass intel -active -asn 394161
 ---
 
 ```bash
-amass intel -asn 394161 -whois -d tesla.com
-
-```
-
-- **Descripción**: Combina búsqueda por ASN, registros WHOIS y dominio específico (`tesla.com`).
-- **Uso**: Proporciona una vista más completa de los activos relacionados con Tesla.
-
----
-
-```bash
 amass intel -d example.com -asn 13335
-
 
 ```
 
 - **Descripción**:Busca dominios relacionados con example.com y el ASN 13335 (Cloudflare).
 - **Uso**: Útil para identificar activos vinculados a la infraestructura de red de Cloudflare que podrían estar relacionados con el dominio objetivo.
 
-![cidr](../../Assets/asntesla.png)
+![cidr](../../Assets/13335.png)
 
 ---
 
@@ -187,28 +176,13 @@ amass enum -d tesla.com -active -cidr 8.21.14.0/24 -asn 394161
 ---
 
 ```bash
-amass intel -d example.com -asn 13335
-
-
-```
-
-- **Descripción**:Busca dominios relacionados con example.com y el ASN 13335 (Cloudflare).
-- **Uso**: Útil para identificar activos vinculados a la infraestructura de red de Cloudflare que podrían estar relacionados con el dominio objetivo.
-
-![cidr](../../Assets/asntesla.png)
-
----
-
-```bash
-amass intel -d example.com -asn 13335
-
+amass enum -d example.com -r 8.8.8.8 -tr 1.1.1.1
 
 ```
 
-- **Descripción**:Busca dominios relacionados con example.com y el ASN 13335 (Cloudflare).
-- **Uso**: Útil para identificar activos vinculados a la infraestructura de red de Cloudflare que podrían estar relacionados con el dominio objetivo.
-
-![cidr](../../Assets/asntesla.png)
+- **Descripción**: Realiza enumeración de subdominios de example.com utilizando resolvers DNS personalizados (Google y Cloudflare).
+- **Uso**: Mejora la resolución DNS y evita bloqueos por parte de resolvers predeterminados.
+![cidr](../../Assets/tr.png)
 
 ---
 
