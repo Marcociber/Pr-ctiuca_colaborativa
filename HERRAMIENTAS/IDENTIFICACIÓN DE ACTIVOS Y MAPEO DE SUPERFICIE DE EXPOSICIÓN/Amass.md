@@ -69,6 +69,19 @@ Cuyo resultado es este:
 
 ![Enumeración](../../Assets/enum.png)
 
+---
+
+El siguiente comando muestra la ayuda del subcomando intel, que se utiliza para recolectar información previa sobre dominios relacionados con un objetivo, como parte del proceso de enumeración de subdominios.
+
+```bash
+amass intel -h
+
+```
+
+Cuyo resultado es este:
+
+![Enumeración](../../Assets/enum.png)
+
 ## 🔍 Enumeración de subdominios con Amass
 
 El siguiente comando utiliza OWASP Amass para buscar subdominios del dominio `google.com` con salida detallada:
@@ -149,6 +162,33 @@ amass intel -d example.com -asn 13335
 
 ---
 
+```bash
+amass intel -org "Apple Inc." -whois > apple_intel.txt
+
+```
+
+- **Descripción**: Este comando utiliza el subcomando intel de Amass para realizar una búsqueda de inteligencia previa enfocada en la organización Apple Inc.. Específicamente, emplea consultas WHOIS para identificar dominios registrados que estén relacionados con esa entidad.
+- **Uso**: Reconocimiento previo a la enumeración: Ideal para ampliar el alcance de dominios antes de ejecutar amass enum. Investigación corporativa: Útil para mapear el ecosistema digital de una empresa.
+Automatización: El archivo de salida puede integrarse en pipelines, herramientas como Faraday, o scripts personalizados.
+
+![applecat](../../Assets/apple1.png)
+
+![apple](../../Assets/apple2.png)
+
+
+-Si hacemos un:
+
+```bash
+cat apple_intel.txt
+
+```
+
+Veremos que se nos ha generado el archivo:
+
+![cat](../../Assets/cat.png)
+
+---
+
 ## 🌐 2. Enumeración de subdominios
 
 ```bash
@@ -196,33 +236,6 @@ amass enum -d example.com -brute -norecursive
 - **Uso**: Ideal para entornos donde se desea limitar la profundidad de descubrimiento o acelerar el proceso.
 
 ![cidr](../../Assets/nore.png)
-
----
-
-```bash
-amass intel -org "Apple Inc." -whois > apple_intel.txt
-
-```
-
-- **Descripción**: Este comando utiliza el subcomando intel de Amass para realizar una búsqueda de inteligencia previa enfocada en la organización Apple Inc.. Específicamente, emplea consultas WHOIS para identificar dominios registrados que estén relacionados con esa entidad.
-- **Uso**: Reconocimiento previo a la enumeración: Ideal para ampliar el alcance de dominios antes de ejecutar amass enum. Investigación corporativa: Útil para mapear el ecosistema digital de una empresa.
-Automatización: El archivo de salida puede integrarse en pipelines, herramientas como Faraday, o scripts personalizados.
-
-![applecat](../../Assets/apple1.png)
-
-![apple](../../Assets/apple2.png)
-
-
--Si hacemos un:
-
-```bash
-cat apple_intel.txt
-
-```
-
-Veremos que se nos ha generado el archivo:
-
-![cat](../../Assets/apple2.png)
 
 ---
 
