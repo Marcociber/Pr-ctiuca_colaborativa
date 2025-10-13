@@ -202,7 +202,7 @@ amass enum -d example.com -brute -norecursive
 ## 📌 Recomendaciones generales
 
 - Usa `-active` para obtener resultados más precisos y actualizados.
-- Combina `intel`, `enum`, y `track` para un ciclo completo de reconocimiento.
+- Combina `intel` y `enum` para un ciclo completo de reconocimiento.
 - Exporta resultados con `-o archivo.txt` para integrarlos en escáneres como Nmap o Nikto.
 
 
