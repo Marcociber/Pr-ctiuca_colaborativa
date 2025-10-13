@@ -199,6 +199,19 @@ amass enum -d example.com -brute -norecursive
 
 ---
 
+```bash
+amass intel -org "Apple Inc." -whois -o apple_intel.txt
+
+```
+
+- **Descripción**: Este comando utiliza el subcomando intel de Amass para realizar una búsqueda de inteligencia previa enfocada en la organización Apple Inc.. Específicamente, emplea consultas WHOIS para identificar dominios registrados que estén relacionados con esa entidad.
+- **Uso**: Reconocimiento previo a la enumeración: Ideal para ampliar el alcance de dominios antes de ejecutar amass enum. Investigación corporativa: Útil para mapear el ecosistema digital de una empresa.
+Automatización: El archivo de salida puede integrarse en pipelines, herramientas como Faraday, o scripts personalizados.
+
+![cidr](../../Assets/nore.png)
+
+---
+
 ## 📌 Recomendaciones generales
 
 - Usa `-active` para obtener resultados más precisos y actualizados.
