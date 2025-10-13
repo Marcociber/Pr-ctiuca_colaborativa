@@ -200,7 +200,7 @@ amass enum -d example.com -brute -norecursive
 ---
 
 ```bash
-amass intel -org "Apple Inc." -whois -o apple_intel.txt
+amass intel -org "Apple Inc." -whois > apple_intel.txt
 
 ```
 
@@ -208,7 +208,21 @@ amass intel -org "Apple Inc." -whois -o apple_intel.txt
 - **Uso**: Reconocimiento previo a la enumeración: Ideal para ampliar el alcance de dominios antes de ejecutar amass enum. Investigación corporativa: Útil para mapear el ecosistema digital de una empresa.
 Automatización: El archivo de salida puede integrarse en pipelines, herramientas como Faraday, o scripts personalizados.
 
-![cidr](../../Assets/nore.png)
+![applecat](../../Assets/apple1.png)
+
+![apple](../../Assets/apple2.png)
+
+
+-Si hacemos un:
+
+```bash
+cat apple_intel.txt
+
+```
+
+Veremos que se nos ha generado el archivo:
+
+![cat](../../Assets/apple2.png)
 
 ---
 
