@@ -80,7 +80,7 @@ amass intel -h
 
 Cuyo resultado es este:
 
-![Enumeración](../../Assets/enum.png)
+![Enumeración](../../Assets/intel.png)
 
 ## 🔍 Enumeración de subdominios con Amass
 
@@ -243,6 +243,6 @@ amass enum -d example.com -brute -norecursive
 
 - Usa `-active` para obtener resultados más precisos y actualizados.
 - Combina `intel` y `enum` para un ciclo completo de reconocimiento.
-- Exporta resultados con `-o archivo.txt` para integrarlos en escáneres como Nmap o Nikto.
+- Exporta resultados con `> archivo.txt` para integrarlos en escáneres como Nmap o Nikto.
 
 
