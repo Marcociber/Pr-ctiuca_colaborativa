@@ -134,6 +134,7 @@ Primero, tenemos que ir al directorio Scans/Tasks, damos en la opción de `new t
 
 En esa pantalla, tendremos que darle a la opción de `new target` para que pueda escanear hacia una dirección o rango de red:
 
+![imagen](../../Assets/target1.png)
 
 
 Permite realizar un escaneo rápido sobre una IP o hostname específico, sin necesidad de configurar manualmente todos los parámetros.
