@@ -1,4 +1,4 @@
-# 🔍 Introducción a OpenVAS: Sistema de Evaluación de Vulnerabilidades
+<img width="824" height="742" alt="image" src="https://github.com/user-attachments/assets/d696485a-064e-4e53-81c8-a30175357da9" /># 🔍 Introducción a OpenVAS: Sistema de Evaluación de Vulnerabilidades
 
 **OpenVAS** (Open Vulnerability Assessment System) es una plataforma de código abierto especializada en la **detección y gestión de vulnerabilidades** en sistemas informáticos. Forma parte del proyecto **Greenbone Vulnerability Management (GVM)** y es ampliamente utilizada en auditorías de seguridad, análisis de riesgos y cumplimiento normativo.
 
@@ -126,7 +126,13 @@ Este panel es útil para:
 
 ## 🎯 Objetivo del asistente
 
-Para ello, tenemos que ir al directorio Scans/Tasks, donde le damos a Task Wizard y ponemos una dirección a escanear.
+Primero, tenemos que ir al directorio Scans/Tasks, damos en la opción de `new task` donde nos sale la siguiente configuración:
+
+![imagen](../../Assets/scan.png)
+
+![imagen](../../Assets/scan.png)
+
+Para ello le damos a Task Wizard y ponemos una dirección a escanear.
 
 ![imagen](../../Assets/scan.png)
 
@@ -135,7 +141,7 @@ Permite realizar un escaneo rápido sobre una IP o hostname específico, sin nec
 ### 🧩 Elementos clave del asistente
 
 - **Campo de entrada:**  
-  `IP address or hostname` → En el ejemplo se usa `10.224.60.246`.
+  `IP address or hostname` → En el ejemplo se usa `10.224.60.0`.
 
 - **Instrucciones del flujo de escaneo:**
   1. Crear un nuevo **Target** (objetivo).
