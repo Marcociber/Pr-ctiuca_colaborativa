@@ -150,7 +150,9 @@ Permite realizar un escaneo rápido sobre una IP o hostname específico, sin nec
 
 Una vez hayamos guardado la configuración, veremos un gráfico con la muestra que está escaneando:
 
+![imagen](../../Assets/resultado1.png)
 
+![imagen](../../Assets/resultado2.png)
 
 ---
 
