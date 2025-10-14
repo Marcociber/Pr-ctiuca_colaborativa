@@ -154,6 +154,8 @@ Una vez hayamos guardado la configuración, veremos un gráfico con la muestra q
 
 ![imagen](../../Assets/resultado2.png)
 
+Lo normal es que tarde al menos media hora en escanear, ya que es un proceso largo donde hace un escaneo profundo.
+
 ---
 
 ### 🧩 Elementos clave del asistente
