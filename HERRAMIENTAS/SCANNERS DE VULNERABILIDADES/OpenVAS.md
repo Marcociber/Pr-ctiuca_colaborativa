@@ -136,8 +136,23 @@ En esa pantalla, tendremos que darle a la opción de `new target` para que pueda
 
 ![imagen](../../Assets/target1.png)
 
+---
+
+Una vez hemos guardado el target, volvemos directamente a `tasks` donde vemos que se nos añade el target directamente, configurando así el task para que haga el escaneo al equipo con esa dirección ip, cuyo escaneo será hacia CVE´s:
+
+![imagen](../../Assets/task3.png)
+
+![imagen](../../Assets/task4.png)
 
 Permite realizar un escaneo rápido sobre una IP o hostname específico, sin necesidad de configurar manualmente todos los parámetros.
+
+---
+
+Una vez hayamos guardado la configuración, veremos un gráfico con la muestra que está escaneando:
+
+
+
+---
 
 ### 🧩 Elementos clave del asistente
 
