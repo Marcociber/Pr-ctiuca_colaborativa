@@ -1,4 +1,4 @@
-<img width="824" height="742" alt="image" src="https://github.com/user-attachments/assets/d696485a-064e-4e53-81c8-a30175357da9" /># 🔍 Introducción a OpenVAS: Sistema de Evaluación de Vulnerabilidades
+# 🔍 Introducción a OpenVAS: Sistema de Evaluación de Vulnerabilidades
 
 **OpenVAS** (Open Vulnerability Assessment System) es una plataforma de código abierto especializada en la **detección y gestión de vulnerabilidades** en sistemas informáticos. Forma parte del proyecto **Greenbone Vulnerability Management (GVM)** y es ampliamente utilizada en auditorías de seguridad, análisis de riesgos y cumplimiento normativo.
 
@@ -128,9 +128,9 @@ Este panel es útil para:
 
 Primero, tenemos que ir al directorio Scans/Tasks, damos en la opción de `new task` donde nos sale la siguiente configuración:
 
-![imagen](../../Assets/scan.png)
+![imagen](../../Assets/task1.png)
 
-![imagen](../../Assets/scan.png)
+![imagen](../../Assets/task2.png)
 
 Para ello le damos a Task Wizard y ponemos una dirección a escanear.
 
