@@ -132,9 +132,9 @@ Primero, tenemos que ir al directorio Scans/Tasks, damos en la opción de `new t
 
 ![imagen](../../Assets/task2.png)
 
-Para ello le damos a Task Wizard y ponemos una dirección a escanear.
+En esa pantalla, tendremos que darle a la opción de `new target` para que pueda escanear hacia una dirección o rango de red:
 
-![imagen](../../Assets/scan.png)
+
 
 Permite realizar un escaneo rápido sobre una IP o hostname específico, sin necesidad de configurar manualmente todos los parámetros.
 
