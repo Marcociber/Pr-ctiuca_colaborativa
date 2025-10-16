@@ -163,7 +163,7 @@ amass intel -d example.com -asn 13335
 ---
 
 ```bash
-amass intel -org "Apple Inc." -whois -o apple_intel.txt
+amass intel -org "Apple Inc." -whois
 amass intel -org "Apple Inc." -whois > apple_intel.txt
 
 ```
