@@ -51,3 +51,10 @@ Nessus forma parte del ecosistema de soluciones de **Tenable**, junto con Tenabl
 - [Cibersafety: Nessus, herramienta esencial en ciberseguridad](https://cibersafety.com/nessus-herramienta-gestion-vulnerabilidades-ciberseguridad/)
 - [Campus Ciberseguridad: ¿Qué es Nessus y para qué sirve?](https://www.campusciberseguridad.com/blog/que-es-nessus-y-para-que-sirve/)
 - [Tenable: Página oficial de Nessus Professional](https://es-la.tenable.com/products/nessus/nessus-professional)
+
+---
+
+#  Instalación 
+
+Lo primero que debemos hacer es irnos a la página de instalación de [Nessus-Teenable](https://www.tenable.com/downloads/nessus?loginAttempted=true), donde escogeremos la versión más reciente y hacia que sistema operativo, en mi caso W11:
+
