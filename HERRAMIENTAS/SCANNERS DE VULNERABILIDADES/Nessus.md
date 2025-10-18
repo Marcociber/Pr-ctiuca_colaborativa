@@ -54,8 +54,89 @@ Nessus forma parte del ecosistema de soluciones de **Tenable**, junto con Tenabl
 
 ---
 
-#  Instalación 
+##  Instalación 
 
 Lo primero que debemos hacer es irnos a la página de instalación de [Nessus-Teenable](https://www.tenable.com/downloads/nessus?loginAttempted=true), donde escogeremos la versión más reciente y hacia que sistema operativo, en mi caso W11:
 
-![Enumeración](../../Assets/0,1.png)
+![Enumeración](../../Assets/nessus/0,1.png)
+
+Donde, una vez instalado, veremos que nos sale este instalador:
+
+![Enumeración](../../Assets/nessus/0,2.png)
+
+Ejecutamos y nos aparecerá la pantalla para instalar el programa, donde damos a siguiente a todo:
+
+![Enumeración](../../Assets/nessus/0,3.png)
+
+Una vez instalado, nos saldrá en nuestro navegador donde tendremos que registrarnos:
+
+![Enumeración](../../Assets/nessus/1.png)
+
+Le damos directamente a continuar y le damos a `register for Nessus Essentioals`:
+
+![Enumeración](../../Assets/nessus/2.png)
+
+Damos a continuar y ahora rellenamos con nuestro nombre, apellido y correo electrónico para registrarnos en la aplicación:
+
+![Enumeración](../../Assets/nessus/3.png)
+
+Una vez registrados, le damos a continuar y ahora nos aparece que se nos ha activado la licencia con nuestro identificador correspondiente:
+
+![Enumeración](../../Assets/nessus/4.png)
+
+Una vez dado a continuar, tendremos que poner un nombre se usuario y una contraseña:
+
+![Enumeración](../../Assets/nessus/5.png)
+
+Una vez creada la cuenta, veremos que se está inicializando la aplicación, donde está cargando todos los datos para que funcione. suele tardar un poco.
+
+![Enumeración](../../Assets/nessus/6.png)
+
+---
+
+##  Configuración 
+
+Una vez realizada la instalación, nos saldrá la página de inicio, donde directamente sale una ventana donde nos da una pequeña explicación de bienvenida. En la opción `Target`, pondremos nuestro rango de red en la que estemos conectados:
+
+![Enumeración](../../Assets/nessus/7.png)
+
+Una vez dado a continuar, veremos que está haciendo un escaneo de red, detectando las diferentes direcciones que se encuentran activas:
+
+![Enumeración](../../Assets/nessus/8.png)
+
+Una vez realiazo el escaneo, veremos que nos sale nustro escaneo, donde vemos a la derecha que está parado:
+
+![Enumeración](../../Assets/nessus/9.png)
+
+Le damos a iniciar y veremos que empieza el escaneo hacia ese proyecto, donde hace escaneos a las direcciones que ha encontrado:
+
+![Enumeración](../../Assets/nessus/10.png)
+
+Vemos (mientra escanea o ya ha terminado el escaneo), que va analizando las máquinas donde podemos ver a la derecha que hay un gráfico donde nos indica el nivel de peligrosidad de las vulnerabilidades:
+
+![Enumeración](../../Assets/nessus/11.png)
+
+Si nos metemos al escaneo de la dirección 10.224.60.246, vemos al principio la información general de lo que tiene:
+
+![Enumeración](../../Assets/nessus/12.png)
+
+---
+
+##  Uso de herramientas de Nessus
+
+Si damos, arriba a la derecha, al botón de `new scan`, veremos que nos muestra un catálogo de diferentes herramientas que ayudadn a afinar más a la hora de hacer identificación de vulnerabilidades:
+
+![Enumeración](../../Assets/nessus/13.png)
+
+En este caso, vamos a usar la herramienta `Advanced Scan`, permite realizar escaneos altamente configurables y personalizados, ideales para profesionales que necesitan un control granular sobre cómo se ejecutan los análisis de vulnerabilidades.
+Donde le nombro como "prueba", pongo una breve descripción y pongo hacia la dirección a escanear:
+
+![Enumeración](../../Assets/nessus/14.png)
+
+En el apartado de `Discovery`, apagamos la opción de `Remote Host Ping`, ya que tenemos la dirección ip encontrada:
+
+![Enumeración](../../Assets/nessus/15.png)
+
+
+
+![Enumeración](../../Assets/nessus/16.png)
