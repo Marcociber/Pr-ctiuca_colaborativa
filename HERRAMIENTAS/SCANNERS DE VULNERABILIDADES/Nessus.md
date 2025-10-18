@@ -137,6 +137,31 @@ En el apartado de `Discovery`, apagamos la opción de `Remote Host Ping`, ya que
 
 ![Enumeración](../../Assets/nessus/15.png)
 
+En la sección de puertos, lo dejamos a default, para que haga el escaneo hacia los puertos por defecto:
 
+![Enumeración](../../Assets/nessus/0,6.png)
 
-![Enumeración](../../Assets/nessus/16.png)
+En el apartado de `Assesment`, vemos que se pueden configurar hacia fuerzas brutas, aplicaciones web, malwares, bases de datos:
+
+![Enumeración](../../Assets/nessus/17.png)
+
+![Enumeración](../../Assets/nessus/18.png)
+
+![Enumeración](../../Assets/nessus/19.png)
+
+En la herramienta, en la sección de `Credentials`, podemos ver que se puede configurar las credenciales, por si se puede añadir:
+
+![Enumeración](../../Assets/nessus/20.png)
+
+En la sección de `Plugins`, podemos ver todos los plugins que tiene para añadir:
+
+![Enumeración](../../Assets/nessus/21.png)
+
+Una vez configurado todo, le damos a `Scan` y vemos que empieza a hacer el escaneo hacia la dirección de red donde empieza el escaneo de vulnerabilidades:
+
+![Enumeración](../../Assets/nessus/22.png)
+
+Una vez terminado el escaneo, podemos ver quie nos saca las vulnerabilidades hacia los puertos asociados, con su correspondiente nombre de vulnerabilidad:
+
+![Enumeración](../../Assets/nessus/24.png)
+
