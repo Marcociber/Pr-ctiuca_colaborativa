@@ -58,3 +58,4 @@ Nessus forma parte del ecosistema de soluciones de **Tenable**, junto con Tenabl
 
 Lo primero que debemos hacer es irnos a la página de instalación de [Nessus-Teenable](https://www.tenable.com/downloads/nessus?loginAttempted=true), donde escogeremos la versión más reciente y hacia que sistema operativo, en mi caso W11:
 
+![Enumeración](../../Assets/0,1.png)
